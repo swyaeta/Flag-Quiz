@@ -1,25 +1,55 @@
+/* for the whole page */
 body{
     background-color:antiquewhite;
     text-align: center;
     font-family: cursive;    
 }
 
+/* for the small heading */
 h2{
     font-size:16px;
     margin-top:70px;
     color:rgb(65, 21, 21)
 }
 
-
+/* for the main heading */
 h1{
     font-size:60px;
-    margin-top:70px
+    margin-top:160px;
+    color:rgb(92, 59, 59)
 }
 
+/* for the go back button */
+.goback{
+    position: absolute;
+    top:10%;
+    left:3%;
+    width:100px;
+    height:60px;
+    font-size:17px;
+    background-color: white;
+    border-radius: 20px;
+    border:2px solid rgb(81, 54, 54);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* for the link to blend */
+a{
+    text-decoration: none;
+    color:inherit
+}
+
+/* for the descriptions! */
 p{
-    font-size:17px
+    font-size:17px;
+    margin-top:10px;
+    font-family: cursive;
+    color:rgb(196, 72, 72) 
 }
 
+/* for all the buttons we'll click */
 button{
     background-color:rgb(133, 105, 105);
     color:rgb(230, 225, 169);
@@ -29,42 +59,42 @@ button{
     cursor:pointer;
     font-size:15px;
     font-family: cursive;
-
-
 }
 
-
+/* for the button when the mouse is on it */
 button:hover{
     background-color: rgb(180, 136, 136);
 }
 
+/* to hide all the questions so they wont show at once*/
 .question-card {
     display: none;
 }
 
+/* to show the current question */
 .question-card.active {
     display: block;
 }
 
+/* for the main quiz box */
 .quizbox {
     width: 800px;
     height: 480px;
     background-color: rgb(252, 246, 238);
     position: relative;
-    margin: 30px auto;
+    margin: 150px auto;
     border-radius: 50px;
     border: 4px solid rgb(134, 87, 87);
 }
 
-
+/* for the answer buttons inside the question */
 .question-card button {
     display: block;
     width: 60%;
     margin: 30px auto;
 }
 
-
-
+/* for the next question button */
 .nextbtn {
     background-color: rgb(100, 65, 30);
     color: white;
@@ -81,13 +111,13 @@ button:hover{
     left:320px
 }
 
+/* for the next button when the mouse is on it */
 .nextbtn:hover {
     background-color:rgb(146, 47, 47);
     transform: scale(1.05);
 }
 
-
-/* this is for the button to return to the old ques*/
+/* this is for the button to return to the old ques */
 .backbtn {
     background-color: rgb(227, 215, 204);
     color: rgb(18, 14, 14);
@@ -105,9 +135,20 @@ button:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
+/* for the back button when the mouse is on it */
 .backbtn:hover {
     background-color: rgb(100, 65, 30);
+}
+
+/* for the result card */
+.rescard {
+    display: none;
+    width: 600px;
+    margin: 30px auto;
+    padding: 25px;
+    background-color: rgb(252, 246, 238);
+    border: 4px solid rgb(134, 87, 87);
+    border-radius: 30px;
 }
