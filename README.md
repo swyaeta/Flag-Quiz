@@ -9,6 +9,7 @@ https://swyaeta.github.io/Flag-Quiz/
 
 Flag Test is a personality-style quiz where you answer 13 questions about your thoughts, choices, and reactions in different situations. At the end, your answers reveal whether you lean more toward red flags, beige flags, or green flags!!!!!!!!.
 
+##### Not Quite Good Design ik, I'm not good at designing
 ### Outer:
 #### top:<img width="1807" height="774" alt="Screenshot (1714)" src="https://github.com/user-attachments/assets/c8d96095-b8be-41ff-b5d7-24d6ae69510d" />
 
