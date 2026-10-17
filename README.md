@@ -2,6 +2,9 @@
 Are u a red flag? let's find out!!
 
 
+## Demo-link:
+https://swyaeta.github.io/Flag-Quiz/
+
 ## About
 
 Flag Test is a personality-style quiz where you answer 13 questions about your thoughts, choices, and reactions in different situations. At the end, your answers reveal whether you lean more toward red flags, beige flags, or green flags!!!!!!!!.
